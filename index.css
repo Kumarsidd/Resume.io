@@ -1,0 +1,55 @@
+/* main element */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: dimgray;
+    color: black;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+/* resume */
+.resume {
+    background-color: white;
+    height: 90vh;
+}
+
+.resume>.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-width: 80vw;
+    border-bottom: 2px solid black;
+    padding: 1rem 2rem;
+    position: relative;
+}
+
+.resume>.heading>.name {
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.resume>.heading>.line {
+    height: 15vh;
+    width: 2px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    margin-left: 2rem;
+}
+
+.resume>.heading>.social-tags {
+    padding: 0 0 0 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.resume>.heading>.social-tags>div {
+    padding-bottom: .3rem;
+}
+
+.resume>.heading>.social-tags>div>a {
+    color: black;
+}
